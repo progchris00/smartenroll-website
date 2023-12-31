@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url(background5.png);
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.main {
+  max-width: 800px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 15px;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.download {
+  background-color: #8659f7;
+  color: white;
+}
+
+.github {
+  border: 1px solid#e6ebf1;
+  color: #8659f7;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 54px;
+  margin: 0;
+}
+
+p {
+  line-height: 1.75rem;
+  font-size: 18px;
+  color: #364253;
+}
+
+.emphasis {
+  position: relative;
+  color: #8659f7;
+}
