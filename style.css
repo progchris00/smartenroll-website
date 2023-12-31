@@ -37,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 3px 10px #e2e4e6;
 }
 
 .download {
@@ -45,7 +46,7 @@ body {
 }
 
 .github {
-  border: 2px solid#e6ebf1;
+  border: 1px solid#e6ebf1;
   color: #8659f7;
 }
 
