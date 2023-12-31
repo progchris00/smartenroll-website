@@ -33,6 +33,9 @@ body {
   width: 150px;
   border-radius: 5px;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .download {
@@ -41,7 +44,7 @@ body {
 }
 
 .github {
-  border: 1px solid#e6ebf1;
+  border: 2px solid#e6ebf1;
   color: #8659f7;
 }
 
